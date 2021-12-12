@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="PrimaryColor" format="reference" />
+    <attr name="VehicleItemBackground" format="reference" />
+    <attr name="VehicleItemStyle" format="reference" />
+    <attr name="PlusIcon" format="reference" />
+    <attr name="SettingsIcon" format="reference" />
+    <attr name="CheckmarkIcon" format="reference" />
+    <attr name="DeleteIcon" format="reference" />
+    <attr name="ProfileSignOutIcon" format="reference" />
+
+    <style name="MainHeadline">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">50dp</item>
+        <item name="android:layout_marginTop">135dp</item>
+        <item name="android:layout_marginBottom">50dp</item>
+        <item name="android:textSize">40sp</item>
+    </style>
+
+    <style name="MainBackground">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">15dp</item>
+        <item name="android:background">?attr/VehicleItemBackground</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:padding">15dp</item>
+        <item name="elevation">16dp</item>
+    </style>
+
+    <style name="ItemLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+    </style>
+
+    <style name="ItemText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="ItemIcon">
+        <item name="android:layout_width">250dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">5</item>
+        <item name="android:src">@drawable/familycarrent_icon</item>
+    </style>
+
+    <style name="ItemSwitch">
+        <item name="android:layout_width">250dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">4</item>
+    </style>
+
+    <style name="VehicleItemLayout" >
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">12dp</item>
+        <item name="android:background">?attr/VehicleItemBackground</item>
+        <item name="android:elevation">16dp</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:padding">15dp</item>
+    </style>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/MainHeadline"
+            android:text="Settings" />
+
+        <LinearLayout style="@style/MainBackground">
+
+            <LinearLayout
+                android:id="@+id/layout_ProfileMyCars"
+                style="@style/ItemLayout">
+
+                <TextView
+                    style="@style/ItemText"
+                    android:text="Force dark mode" />
+
+                <Switch
+                    android:id="@+id/sw_SettingsForceDarkMode"
+                    style="@style/ItemSwitch"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,31 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.FamilyCarRent" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/orange_L</item>
+        <item name="colorPrimaryVariant">@color/orange_A</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/orange_A</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="android:textColor">@color/black</item>
+        <item name="PrimaryColor">@color/orange_L</item>
+
+        <!-- Vehicle Item -->
+        <item name="VehicleItemBackground">@drawable/rounded_light</item>
+        <item name="VehicleItemStyle">@style/VehicleItemLayout</item>
+
+        <!-- Icons -->
+        <item name="PlusIcon">@drawable/plus_50_black</item>
+        <item name="SettingsIcon">@drawable/settings_50_black</item>
+        <item name="DeleteIcon">@drawable/delete_50_black</item>
+        <item name="ProfileSignOutIcon">@drawable/sign_out_50_black</item>
+        <item name="CheckmarkIcon">@drawable/checkmark_50_black</item>
+    </style>
+
+
+</resources>

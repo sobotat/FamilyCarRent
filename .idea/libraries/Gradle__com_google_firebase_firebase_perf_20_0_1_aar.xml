@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.firebase:firebase-perf:20.0.1@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c3b639b3e0f13c07371e21ec121cec41/firebase-perf-20.0.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9ec9b0160cd9c259e2f7fe61cb65a5e5/firebase-perf-20.0.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cb6828ff011f93d79de4e8a4e1fb5297/firebase-perf-20.0.1/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/5339cb39323f0960eec0a37df28064d0/transformed/firebase-perf-20.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/5339cb39323f0960eec0a37df28064d0/transformed/firebase-perf-20.0.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/5339cb39323f0960eec0a37df28064d0/transformed/firebase-perf-20.0.1/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.firebase/firebase-perf/20.0.1/eb44afa933fba17183ce1fd55ddf055d348f4356/firebase-perf-20.0.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

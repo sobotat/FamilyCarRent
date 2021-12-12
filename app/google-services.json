@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "348515066811",
+    "project_id": "familycarrent-15203",
+    "storage_bucket": "familycarrent-15203.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:348515066811:android:542fb69a721d53ff8d5a9e",
+        "android_client_info": {
+          "package_name": "cz.familycarrent.program"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "348515066811-spja89d1jtf5elpuclvocfg0d78dvdu9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCt02vRDeVJj6kx0tQvwty1zy6Fpw5Bx6w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "348515066811-spja89d1jtf5elpuclvocfg0d78dvdu9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

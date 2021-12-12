@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/MainHeadline"
+            android:text="Login" />
+
+        <LinearLayout
+            style="@style/MainBackground">
+
+            <TextView
+                style="@style/ItemText"
+                android:text="Welcome to Family Car Rent"
+                android:textColor="?attr/PrimaryColor"
+                android:textStyle="bold"
+                android:textSize="22sp"
+                android:gravity="center"/>
+
+            <TextView
+                style="@style/ItemText"
+                android:text="We are happy to see you here"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/MainBackground">
+
+            <Button
+                android:id="@+id/btn_LoginGoogle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_light"
+                android:text="Login with Google" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

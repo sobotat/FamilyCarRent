@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FamilyActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/MainHeadline"
+                android:text="My Family" />
+
+            <TextView
+                android:id="@+id/tv_FamilyName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="-45dp"
+                android:text="Doe's Family"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+        </LinearLayout>
+
+
+        <LinearLayout style="@style/MainBackground">
+
+            <LinearLayout
+                android:id="@+id/layout_ProfileMyCars"
+                style="@style/ItemLayout"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_FamilyMessage"
+                    style="@style/ItemText"
+                    android:text="You don't have created your family yet."
+                    android:textSize="19sp"
+                    android:visibility="gone"/>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rv_FamilyMembers"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout style="@style/MainBackground">
+
+            <LinearLayout
+                android:id="@+id/layout_FamilyInvite"
+                style="@style/ItemLayout">
+
+                <TextView
+                    style="@style/ItemText"
+                    android:text="Add Family Member" />
+
+                <ImageView
+                    style="@style/ItemIcon"
+                    android:src="?attr/PlusIcon" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_FamilyRename"
+                style="@style/ItemLayout"
+                android:visibility="visible">
+
+                <TextView
+                    style="@style/ItemText"
+                    android:text="Rename Family" />
+
+                <ImageView
+                    style="@style/ItemIcon"
+                    android:src="?attr/SettingsIcon" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_FamilyRenameEdit"
+                style="@style/ItemLayout"
+                android:visibility="gone">
+
+                <EditText
+                    android:id="@+id/et_FamilyRenameText"
+                    style="@style/ItemText"
+                    android:layout_weight="1.75"
+                    android:hint="Doe's Family" />
+
+                <ImageView
+                    android:id="@+id/iv_FamilyRenameCancel"
+                    style="@style/ItemIcon"
+                    android:paddingEnd="5dp"
+                    android:src="?attr/DeleteIcon" />
+
+                <ImageView
+                    android:id="@+id/iv_FamilyRenameChange"
+                    style="@style/ItemIcon"
+                    android:paddingStart="5dp"
+                    android:src="?attr/CheckmarkIcon" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_FamilyDelete"
+                style="@style/ItemLayout"
+                android:visibility="visible">
+
+                <TextView
+                    style="@style/ItemText"
+                    android:text="Delete Family" />
+
+                <ImageView
+                    style="@style/ItemIcon"
+                    android:src="?attr/DeleteIcon" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_FamilyCreate"
+                style="@style/ItemLayout"
+                android:visibility="gone">
+
+                <TextView
+                    style="@style/ItemText"
+                    android:text="Create Family" />
+
+                <ImageView
+                    style="@style/ItemIcon"
+                    android:src="?attr/PlusIcon" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
